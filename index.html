@@ -1,88 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Climbing Advantage</title>
-    <link href="https://fonts.googleapis.com/css2?family=Allan&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            margin: 0;
-            font-family: 'Montserrat', sans-serif;
-            background-color: #1E1E1E;
-            color: #C8A96B;
-        }
-
-        img.logo {
-            position: absolute;
-            top: 20px;
-            left: 30px;
-            max-width: 100px;
-            z-index: 2;
-        }
-
-        .contact-line {
-            font-size: 0.9rem;
-            text-align: center;
-            margin: 30px 0;
-        }
-
-        .contact-line a {
-            color: #C8A96B;
-            text-decoration: none;
-            margin: 0 8px;
-        }
-
-        .contact-line a:hover {
-            text-decoration: underline;
-        }
-
-        header {
-            width: 100%;
-            height: 60vh;
-            background-image: url('banner.jpg');
-            background-size: cover;
-            background-position: center;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            position: relative;
-            text-align: center;
-        }
-
-        header::after {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.5);
-        }
-
-        .header-content {
-            position: relative;
-            z-index: 1;
-            color: #C8A96B;
-        }
-
-        h1 {
-            font-family: 'Allan', cursive;
-            font-size: 3.5rem;
-            margin: 0 0 10px;
-            color: #C8A96B;
-            letter-spacing: 1px;
-        }
-
-        p {
-            font-size: 1.2rem;
-            margin: 5px 0;
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Allan&family=Montserrat:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
+    <div class="navbar">
+        <div style="padding-right:40px;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="FreeTrainingPlans.html">Free Training Plans</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
     <header>
-        <img src="ClimbingAdvantageLogo_trans_gold.png" alt="Climbing Advantage Logo" class="logo">
+        <img src="images/ClimbingAdvantageLogo_trans_gold.png" alt="Climbing Advantage Logo" class="logo">
         <div class="header-content">
             <h1>Climbing Advantage</h1>
             <p>Providing In-Person Coaching for Rock Climbing Athletes of all abilities</p>
@@ -90,13 +33,15 @@
     </header>
 
     <div class="contact-line">
-    <a href="mailto:coach@climbingadvantage.com">coach@climbingadvantage.com</a> |
-    <a href="https://climbingadvantage.com" target="_blank">climbingadvantage.com</a> |
-    <a href="https://instagram.com/climbingadvantage" target="_blank">
-        <img src="instaLogo.png" alt="Instagram" style="height: 16px; vertical-align: middle; margin-right: 5px;">
-        @climbingadvantage
-    </a>
-</div>
+        <a href="mailto:coach@climbingadvantage.com">coach@climbingadvantage.com</a> |
+        <a href="https://climbingadvantage.com" target="_blank">climbingadvantage.com</a> |
+        <a href="https://instagram.com/climbingadvantage" target="_blank">
+            <img src="images/instaLogo.png" alt="Instagram"
+                style="height: 16px; vertical-align: middle; margin-right: 5px;">
+            @climbingadvantage
+        </a>
+    </div>
 
 </body>
+
 </html>
