@@ -162,6 +162,7 @@ p {
 
 .nav-link:hover {
     text-decoration: underline;
+    color: #C8A96B !important;
 }
         .content {
             padding: 40px 20px;
