@@ -62,9 +62,18 @@
             <p>A focused 5-week training program combining max strength, explosive power, and flexibility. Ideal for
                 advanced climbers aiming to boost performance with structured climbing drills, strength training, and
                 mobility work.</p>
-            <a href="plans/PowerPowerPower.pdf" class="download-btn" download>PDF Version</a>
-            <a href="plans/PowerPowerPower.xlsx" class="download-btn" download>Excel Version</a>
-            <a href="plans/PowerPowerPower.zip" class="download-btn" download>HTML Version</a>
+            <a onclick="gtag('event', 'download', {
+                'event_category': 'PDF',
+                'event_label': 'PowerPowerPower.pdf'
+                        });" href="plans/PowerPowerPower.pdf" class="download-btn" download>PDF Version</a>
+            <a onclick="gtag('event', 'download', {
+                'event_category': 'XLSX', 
+                'event_label': 'plans/PowerPowerPower.xlsx'
+                        });" href="plans/PowerPowerPower.xlsx" class="download-btn" download>Excel Version</a>
+            <a <a onclick="gtag('event', 'download', {
+                'event_category': 'XLSX', 
+                'event_label': 'plans/PowerPowerPower.zip'
+                        });" href="plans/PowerPowerPower.zip" class="download-btn" download>HTML Version</a>
         </div>
 
         <div class="plan">
@@ -89,7 +98,10 @@
                 balances with real-life responsibilities.
 
             </p>
-            <a href="plans/10Step_Designing_a_Training_Program.pdf" class="download-btn" download>PDF Version</a>
+            <a onclick="gtag('event', 'download', {
+                'event_category': 'PDF',
+                'event_label': '10Step_Designing_a_Training_Program.pdf'
+                        });" href="plans/10Step_Designing_a_Training_Program.pdf" class="download-btn" download>PDF Version</a>
         </div>
 
     </div>
