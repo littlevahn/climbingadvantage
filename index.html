@@ -2,48 +2,49 @@
 <html lang="en">
 
 <head>
-
-    <!-- Google tag (gtag.js) -->
+    <meta charset="UTF-8">
+    <title>Climbing Advantage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q1QJTEJF8S"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', 'G-Q1QJTEJF8S');
     </script>
-
-    <meta charset="UTF-8">
-    <title>Climbing Advantage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Allan&family=Montserrat:wght@400;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <span class="d-none d-md-inline">Climbing Advantage</span>
+                <span class="d-inline d-md-none">CA</span>
+            </a>
 
-    <div class="navbar">
-        <div style="padding-right:40px;">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="FreeTrainingPlans.html">Free Training Plans</a>
-                </li>
-            </ul>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="FreeTrainingPlans.html">Free Training Plans</a></li>
+                </ul>
+            </div>
         </div>
-    </div>
-
-    <header>
-        <img src="images/ClimbingAdvantageLogo_trans_gold.png" alt="Climbing Advantage Logo" class="logo">
+    </nav>
+    <header class="text-center my-4">
+        <img src="images/ClimbingAdvantageLogo_trans_gold.png" alt="Climbing Advantage Logo" class="header-logo">
         <div class="header-content">
             <h1>Climbing Advantage</h1>
             <p>Providing In-Person Coaching for Rock Climbing Athletes of all abilities</p>
         </div>
     </header>
-
-    <div class="contact-line">
+    <div class="text-center mb-4 contact-line">
         <a href="mailto:coach@climbingadvantage.com">coach@climbingadvantage.com</a> |
         <a href="https://climbingadvantage.com" target="_blank">climbingadvantage.com</a> |
         <a href="https://instagram.com/climbingadvantage" target="_blank">
@@ -52,7 +53,7 @@
             @climbingadvantage
         </a>
     </div>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

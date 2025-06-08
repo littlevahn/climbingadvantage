@@ -2,111 +2,84 @@
 <html lang="en">
 
 <head>
-
-    <!-- Google tag (gtag.js) -->
+    <meta charset="UTF-8">
+    <title>Free Training Plans - Climbing Advantage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q1QJTEJF8S"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', 'G-Q1QJTEJF8S');
-
     </script>
-
-    <meta charset="UTF-8">
-    <title>Free Training Plans - Climbing Advantage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Allan&family=Montserrat:wght@400;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body class="subpage">
-    <div class="navbar">
-        <div style="padding-right:40px;">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="FreeTrainingPlans.html">Free Training Plans</a>
-                </li>
-            </ul>
-        </div>
-    </div>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <span class="d-none d-md-inline">Climbing Advantage</span>
+                <span class="d-inline d-md-none">CA</span>
+            </a>
 
-    <header>
-        <img src="images/ClimbingAdvantageLogo_trans_gold.png" alt="Climbing Advantage Logo" class="logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAlt">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAlt">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="FreeTrainingPlans.html">Free Training Plans</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="text-center my-4">
+        <img src="images/ClimbingAdvantageLogo_trans_gold.png" alt="Climbing Advantage Logo" class="header-logo">
         <div class="header-content">
             <h1>Free Training Plans</h1>
         </div>
     </header>
-
-    <div class="content">
+    <div class="container content">
         <div class="intro">
-            <h2>A Few Notes on How to Approach This Program</h2>
-            <p>The weekly structure is designed as follows: <strong>2 days on, 1 day off, 2 days on, 2 days
-                    off</strong>.<br>
-                A schedule I like looks like this: <em>Train on Tuesday, Wednesday, Friday, and Saturday</em>.<br>
-                Of course, feel free to adjust the days to fit your personal schedule — consistency is what matters
-                most.</p>
-
-            <p><strong>Always, always, always warm up before each session.</strong><br>
-                Your warm-up isn’t just about injury prevention — it sets the tone for your training.<br>
-                Move slowly and with intention. Climb with precision and control.<br>
-                Dial in your footwork. Be mindful of your hips.<br>
-                The focus you bring to your warm-up will carry through your entire session.</p>
+            <h2>How to Approach This Program</h2>
+            <p>The weekly structure is: <strong>2 days on, 1 day off, 2 days on, 2 days off</strong>.<br>Example:
+                <em>Train on Tuesday, Wednesday, Friday, Saturday</em>. Adjust as needed — consistency matters most.</p>
+            <p><strong>Always warm up</strong> — it sets the tone. Move with intention. Precision and control matter.
+            </p>
         </div>
-
         <div class="plan">
             <h2>Bouldering - Power, Power, Power - Advanced</h2>
-            <p>A focused 5-week training program combining max strength, explosive power, and flexibility. Ideal for
-                advanced climbers aiming to boost performance with structured climbing drills, strength training, and
-                mobility work.</p>
-            <a onclick="gtag('event', 'download', {
-                'event_category': 'PDF',
-                'event_label': 'PowerPowerPower.pdf'
-                        });" href="plans/PowerPowerPower.pdf" class="download-btn" download>PDF Version</a>
-            <a onclick="gtag('event', 'download', {
-                'event_category': 'XLSX', 
-                'event_label': 'plans/PowerPowerPower.xlsx'
-                        });" href="plans/PowerPowerPower.xlsx" class="download-btn" download>Excel Version</a>
-            <a onclick="gtag('event', 'download', {
-                'event_category': 'XLSX', 
-                'event_label': 'plans/PowerPowerPower.zip'
-                        });" href="plans/PowerPowerPower.zip" class="download-btn" download>HTML Version</a>
+            <p>A focused 5-week program for max strength, power, and flexibility. Designed for advanced climbers.</p>
+            <div class="d-flex flex-wrap gap-2">
+                <a onclick="gtag('event', 'download', {'event_category': 'PDF','event_label': 'PowerPowerPower.pdf'});"
+                    href="plans/PowerPowerPower.pdf" class="download-btn" download>PDF Version</a>
+                <a onclick="gtag('event', 'download', {'event_category': 'XLSX','event_label': 'PowerPowerPower.xlsx'});"
+                    href="plans/PowerPowerPower.xlsx" class="download-btn" download>Excel Version</a>
+                <a onclick="gtag('event', 'download', {'event_category': 'XLSX','event_label': 'PowerPowerPower.zip'});"
+                    href="plans/PowerPowerPower.zip" class="download-btn" download>HTML Version</a>
+            </div>
         </div>
-
         <div class="plan">
             <h2>Coming Soon...</h2>
         </div>
         <hr>
         <div class="intro">
-            <h2>Want to Design your own Program?</h2>
-            <p>
-                The guide encourages thoughtful planning to ensure training is both goal-oriented and realistically
-                maintainable. <br>
-                Ideal for athletes, coaches, or anyone looking to improve consistency and results in their fitness
-                journey.
-            </p>
+            <h2>Want to Design Your Own Program?</h2>
+            <p>This guide helps you plan training that's realistic, structured, and sustainable — great for coaches or
+                dedicated climbers.</p>
         </div>
         <div class="plan">
             <h2>10-Step Approach to Designing a Training Program</h2>
-            <p>
-                This PDF, "10-Step Approach to Designing a Training Program," is a practical guide for building a
-                customized and sustainable workout plan.
-                It's designed to help individuals set clear fitness goals and structure their training in a way that
-                balances with real-life responsibilities.
-
-            </p>
-            <a onclick="gtag('event', 'download', {
-                'event_category': 'PDF',
-                'event_label': '10Step_Designing_a_Training_Program.pdf'
-                        });" href="plans/10Step_Designing_a_Training_Program.pdf" class="download-btn" download>PDF Version</a>
+            <p>A practical PDF guide to set goals and build a plan that balances life and training.</p>
+            <a onclick="gtag('event', 'download', {'event_category': 'PDF','event_label': '10Step_Designing_a_Training_Program.pdf'});"
+                href="plans/10Step_Designing_a_Training_Program.pdf" class="download-btn" download>PDF Version</a>
         </div>
-
     </div>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
